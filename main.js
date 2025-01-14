@@ -18,7 +18,7 @@ const myBool = true;
 const myArr = [1, 2, 3, 4, 5];
 const myObj = { first: 'First Name', last: 'Last Name' };
 
-console.log(myNum, myStr, myBool, myArr, myObj);
+console.log('Task №1:', myNum, 'Task №1:', myStr, 'Task №1:', myBool, 'Task №1:', myArr, 'Task №1:', myObj);
 
 /*
  * #2
@@ -29,6 +29,7 @@ console.log(myNum, myStr, myBool, myArr, myObj);
 
 
 const decimal2 = myNum.toFixed(2);
+console.log('Task №2:', decimal2);
 
 /*
  * #3
@@ -39,10 +40,10 @@ const decimal2 = myNum.toFixed(2);
 // i
 
 let i = 5;
-console.log(++i);
-console.log(i++);
-console.log(--i);
-console.log(i--);
+console.log('Task №3:', ++i);
+console.log('Task №3:', i++);
+console.log('Task №3:', --i);
+console.log('Task №3:', i--);
 
 /*
  * #4
@@ -87,10 +88,10 @@ const myRound = Math.round(89.279);
 const myRandom = Math.random(0, 10) * 10;
 const myPow = Math.pow(3, 5);
 
-console.log(myPi);
-console.log(myRound);
-console.log(myRandom.toFixed());
-console.log(myPow);
+console.log('Task №5:', myPi);
+console.log('Task №5:', myRound);
+console.log('Task №5:', myRandom.toFixed());
+console.log('Task №5:', myPow);
 
 /*
  * #6
@@ -108,8 +109,8 @@ const strObj = {
 };
 
 
-console.log(strObj.str);
-console.log(strObj.length);
+console.log('Task №6:', strObj.str);
+console.log('Task №6:', strObj.length);
 
 /*
  * #7
@@ -125,8 +126,8 @@ console.log(strObj.length);
 const isRamaPos = strObj.str.indexOf('рама');
 const isRama = isRamaPos !== -1;
 
-console.log(isRamaPos);
-console.log(isRama);
+console.log('Task №7:', isRamaPos);
+console.log('Task №7:', isRama);
 
 
 /*
@@ -141,7 +142,7 @@ console.log(isRama);
 // strReplace
 
 const strReplace = strObj.str.replace('мыла', 'моет').replace('мыла', 'держит').replace('рама', 'Рама');
-console.log(strReplace);
+console.log('Task №8:', strReplace);
 
 /*
  * #9
@@ -153,5 +154,5 @@ const someStr = 'some STRING'
 const upperStr = someStr.toUpperCase();
 const lowerStr = someStr.toLowerCase();
 
-console.log(upperStr);
-console.log(lowerStr);
+console.log('Task №9:', upperStr);
+console.log('Task №9:', lowerStr);

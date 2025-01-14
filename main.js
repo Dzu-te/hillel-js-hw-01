@@ -65,12 +65,19 @@ console.log('Task №3:', i--);
 let myTest = 20;
 
 myTest += myNum;
-myTest -= myNum;
-myTest *= myNum;
-myTest /= myNum;
-myTest %= myNum;
+console.log('Task №4: myTest += myNum:', myTest); // 30
 
-console.log(myTest);
+myTest -= myNum;
+console.log('Task №4: myTest -= myNum:', myTest); // 20
+
+myTest *= myNum;
+console.log('Task №4: myTest *= myNum:', myTest); // 200
+
+myTest /= myNum;
+console.log('Task №4: myTest /= myNum:', myTest); // 20
+
+myTest %= myNum;
+console.log('Task №4: myTest %= myNum:', myTest); // 0
 
 /*
  * #5

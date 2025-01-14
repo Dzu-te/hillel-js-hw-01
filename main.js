@@ -1,4 +1,4 @@
-console.log('#1. Приклад домашнього завдання з JavaScript')
+// console.log('#1. Приклад домашнього завдання з JavaScript')
 
 /*
  * #1
@@ -18,6 +18,8 @@ const myBool = true;
 const myArr = [1, 2, 3, 4, 5];
 const myObj = { first: 'First Name', last: 'Last Name' };
 
+console.log(myNum, myStr, myBool, myArr, myObj);
+
 /*
  * #2
  *
@@ -25,9 +27,7 @@ const myObj = { first: 'First Name', last: 'Last Name' };
  * Результат збережіть у змінній decimal2.
  */
 
-// decimal2
 
-const myNum = 10;
 const decimal2 = myNum.toFixed(2);
 
 /*
@@ -60,7 +60,7 @@ console.log(i--);
 // /=
 // %=
 
-const myNum = 10;
+
 let myTest = 20;
 
 myTest += myNum;
@@ -103,10 +103,13 @@ console.log(myPow);
 // strObj
 
 const strObj = {
-  str: 'Мама мыла раму, рама мыла маму',
+  str: "Мама мыла раму, рама мыла маму",
+  length: "Мама мыла раму, рама мыла маму".length
 };
 
-console.log(strObj.str.length);
+
+console.log(strObj.str);
+console.log(strObj.length);
 
 /*
  * #7
@@ -137,7 +140,7 @@ console.log(isRama);
 
 // strReplace
 
-const strReplace = strObj.str.replace('мыла', 'моет').replace('мыла', 'держит');
+const strReplace = strObj.str.replace('мыла', 'моет').replace('мыла', 'держит').replace('рама', 'Рама');
 console.log(strReplace);
 
 /*

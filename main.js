@@ -92,7 +92,7 @@ console.log('Task №4: myTest %= myNum:', myTest); // 0
 
 const myPi = Math.PI;
 const myRound = Math.round(89.279);
-const myRandom = Math.random(0, 10) * 10;
+const myRandom = Math.floor(Math.random() * 11);
 const myPow = Math.pow(3, 5);
 
 console.log('Task №5:', myPi);
@@ -109,10 +109,11 @@ console.log('Task №5:', myPow);
 
 // Мама мыла раму, рама мыла маму
 // strObj
+const textTest = 'Мама мыла раму, рама мыла маму';
 
 const strObj = {
-  str: "Мама мыла раму, рама мыла маму",
-  length: "Мама мыла раму, рама мыла маму".length
+  str: textTest,
+  length: textTest.length
 };
 
 
@@ -130,7 +131,10 @@ console.log('Task №6:', strObj.length);
 // isRamaPos
 // isRama
 
-const isRamaPos = strObj.str.indexOf('рама');
+
+// =============================================================
+
+const isRamaPos = strObj.str.includes('рама') ? strObj.str.indexOf('рама') : -1;
 const isRama = isRamaPos !== -1;
 
 console.log('Task №7:', isRamaPos);
